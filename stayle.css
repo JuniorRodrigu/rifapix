@@ -1,0 +1,261 @@
+@media(min-width: 801px) {
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #f5f5f5;
+  }
+
+  h1 {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.5rem;
+    min-width: 70vw;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .imagem {
+    width: 50vw;
+    height: 40vh;
+    border-radius: 2rem;
+  }
+
+  /*aqui <button type="submit" id="continuar" name="submit">Continuar</button>*/
+  #continuar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3264fe;
+    width: 15vw;
+    height: 8vh;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 45px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .adiction {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    font-size: 40px;
+    border: none;
+    background-color: #ffffff;
+    color: #202030;
+    width: 15vw;
+    height: 7vh;
+  }
+
+  #quantidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2rem;
+  }
+.add{
+  display: flex;
+}
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  #decrement,
+  #increment {
+    background-color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    min-width: 7vw;
+    min-height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #decrement {
+    border-radius: 2rem 0 0 2rem;
+  }
+
+  #increment {
+    border-radius: 0 2rem 2rem 0;
+  }
+
+  #total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0af358;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    width: 40vw;
+    height: 5vh;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Tilt+Neon&display=swap');
+
+/* Estilos para dispositivos móveis com largura menor que 800px */
+@media (max-width:800px) {
+  * {
+
+    margin: 0;
+  }
+
+  body {
+    background-color: #222527;
+  }
+
+  h1 {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.5rem;
+    min-width: 70vw;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 45px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .adiction {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    font-size: 1.5rem;
+    border: none;
+    color: #202030;
+    min-width: 15vw;
+    min-height: 8vh;
+    background-color: #ffffff;
+  }
+
+  #quantidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #decrement,
+  #increment {
+    background-color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    min-width: 7vw;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  #decrement {
+    border-radius: 2rem 0 0 2rem;
+  }
+
+  #increment {
+    border-radius: 0 2rem 2rem 0;
+  }
+
+  #continuar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3264fe;
+    min-width: 30vw;
+    max-width: 50vw;
+    height: 8vh;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  #total {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0af358;
+    color: #f4f4f7;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    min-width: 30vw;
+    max-width: 50vw;
+    height: 4vh;
+  }
+
+  .img {
+    width: 70vw;
+    height: 30vh;
+  }
+
+  .imagem {
+    width: 70vw;
+    height: 30vh;
+    border-radius: 2rem;
+  }
+}
